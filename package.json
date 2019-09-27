@@ -1,0 +1,17 @@
+{
+  "name": "karma-test",
+  "version": "1.0.0",
+  "description": "A basic config to run the Karma test tool.",
+  "keywords": [
+    "karma",
+    "testing-tools",
+    "commonjs",
+    "esmodules"
+  ],
+  "author": "Bruce Taylor",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

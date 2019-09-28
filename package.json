@@ -4,6 +4,7 @@
   "description": "A basic config to run the Karma test tool.",
   "keywords": [
     "karma",
+    "jasmine",
     "testing-tools",
     "commonjs",
     "esmodules"
@@ -12,6 +13,18 @@
   "license": "SEE LICENSE IN LICENSE",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "testKarma": "karma start karma.conf.js",
+    "testJasmine": "jasmine --config=spec/support/jasmine.json"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "jasmine": "^3.5.0",
+    "jasmine-core": "^3.5.0",
+    "karma": "^4.3.0",
+    "karma-babel-preprocessor": "^8.0.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^2.0.1"
   }
 }
